@@ -21,7 +21,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#wie">Wie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#wie">Voor wie</a></li>
                         <li class="nav-item"><a class="nav-link" href="#wat">Wat</a></li>
                         <li class="nav-item"><a class="nav-link" href="#waar">Waar</a></li>
                         <li class="nav-item"><a class="nav-link" href="#wanneer">Wanneer</a></li>
@@ -50,10 +50,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Als je... </h2>
+                        <h2 class="text-white mt-0">Voor wie is dit? </h2>
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">Angst, stress, burn-out en wanhoop zijn veelvoorkomende reacties wanneer men worstelt met het probleem. Leven met de klimaatcrisis groepen bieden een mix van psychologisch gebaseerd groepswerk en ervaringsgericht leren die flexibel kunnen worden gebruikt om mensen te ondersteunen bij het beheren van hun gevoelens, ervaringen en acties.</p>
-<!--                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>-->
                     </div>
                 </div>
             </div>
@@ -62,9 +61,8 @@
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Wat</h2>
                 <hr class="divider" />
-                <p>Hoe willen we ons verhouden tot de klimaat- en ecologische crisis? Hoe kunnen we persoonlijk en collectief reageren? In deze workshop bieden we een plek om te praten, te delen en te reflecteren, en ook tools, ideeën en vaardigheden voor de praktijk. De nadruk ligt op onze gedeelde menselijkheid, onze onderlinge afhankelijkheid, de noodzaak van een collectieve reactie en de behoefte van elke persoon om richting te vinden in de verwarrende hoeveelheid aan mogelijkheden tot handelen. Leven met de klimaatcrisis betekent niet alleen dat je je bewust bent van de situatie waarin we ons bevinden, maar ook dat je desalniettemin, of juist daarom je leven lééft.
-
-                    Gebaseerd op het nieuwe project van Climate Psychology Alliance "Living with the Climate Crisis".</p>
+                <p>Hoe willen we ons verhouden tot de klimaat- en ecologische crisis? Hoe kunnen we persoonlijk en collectief reageren? In deze workshop bieden we een plek om te praten, te delen en te reflecteren, en ook tools, ideeën en vaardigheden voor de praktijk. De nadruk ligt op onze gedeelde menselijkheid, onze onderlinge afhankelijkheid, de noodzaak van een collectieve reactie en de behoefte van elke persoon om richting te vinden in de verwarrende hoeveelheid aan mogelijkheden tot handelen. Leven met de klimaatcrisis betekent niet alleen dat je je bewust bent van de situatie waarin we ons bevinden, maar ook dat je desalniettemin, of juist daarom je leven lééft. </p>
+                <p> Gebaseerd op het nieuwe project van Climate Psychology Alliance "Living with the Climate Crisis".</p>
                 <p> In dit stukje ook iets over de kosten</p>
             </div>
         </section>
@@ -88,8 +86,75 @@
         </section>
         <section class="page-section bg-dark text-white"id="inschrijven">
             <div class="container px-4 px-lg-5 text-center">
+                <div class="row">
                 <h2 class="mb-4">Schrijf je nu in!</h2>
-                <a class="btn btn-light btn-xl" href="#">Vul hier het formulier in!</a>
+                    <div class="col px-5 mx-5 text-black">
+                        <form id="contactForm" data-sb-form-api-token="c3435dbe-9c2f-4e2a-a01f-c0039a86fed3" class="px-5 mx-5">
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="emailadres" type="email" placeholder="Emailadres" data-sb-validations="required,email" />
+                                <label for="emailadres">Emailadres</label>
+                                <div class="invalid-feedback" data-sb-feedback="emailadres:required">Emailadres is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="emailadres:email">Emailadres Email is not valid.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="voornaam" type="text" placeholder="Voornaam" data-sb-validations="required" />
+                                <label for="voornaam">Voornaam</label>
+                                <div class="invalid-feedback" data-sb-feedback="voornaam:required">Voornaam is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="achternaam" type="text" placeholder="Achternaam" data-sb-validations="required" />
+                                <label for="achternaam">Achternaam</label>
+                                <div class="invalid-feedback" data-sb-feedback="achternaam:required">Achternaam is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="geboortedatum" type="text" placeholder="Geboortedatum" data-sb-validations="required" />
+                                <label for="geboortedatum">Geboortedatum</label>
+                                <div class="invalid-feedback" data-sb-feedback="geboortedatum:required">Geboortedatum is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="telefoonnummer" type="text" placeholder="Telefoonnummer" data-sb-validations="required" />
+                                <label for="telefoonnummer">Telefoonnummer</label>
+                                <div class="invalid-feedback" data-sb-feedback="telefoonnummer:required">Telefoonnummer is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="straatEnHuisnummer" type="text" placeholder="Straat en huisnummer" data-sb-validations="required" />
+                                <label for="straatEnHuisnummer">Straat en huisnummer</label>
+                                <div class="invalid-feedback" data-sb-feedback="straatEnHuisnummer:required">Straat en huisnummer is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="postcode" type="text" placeholder="Postcode" data-sb-validations="required" />
+                                <label for="postcode">Postcode</label>
+                                <div class="invalid-feedback" data-sb-feedback="postcode:required">Postcode is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="woonplaats" type="text" placeholder="Woonplaats" data-sb-validations="required" />
+                                <label for="woonplaats">Woonplaats</label>
+                                <div class="invalid-feedback" data-sb-feedback="woonplaats:required">Woonplaats is required.</div>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <input class="form-control" id="hebJeDieetwensen" type="text" placeholder="Heb je dieetwensen?" data-sb-validations="" />
+                                <label for="hebJeDieetwensen">Heb je dieetwensen?</label>
+                            </div>
+                            <div class="form-floating mb-3 mx-5">
+                                <textarea class="form-control" id="hebJeNogOpmerkingenOfVragen" type="text" placeholder="Heb je nog opmerkingen of vragen?" style="height: 10rem;" data-sb-validations=""></textarea>
+                                <label for="hebJeNogOpmerkingenOfVragen">Heb je nog opmerkingen of vragen?</label>
+                            </div>
+                            <div class="d-none text-white" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mx-5">
+                                    <div class="fw-bolder">Yes! We hebben je inschrijving ontvangen!</div>
+                                    <p>We nemen snel contact met je op.</p>
+                                </div>
+                            </div>
+                            <div class="d-none text-white" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg disabled mx-5" id="submitButton" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                </div>
             </div>
         </section>
         <section class="page-section" id="overons">
@@ -105,64 +170,7 @@
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Heb je een vraag?</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Stuur ons een berichtje op [emailadres] of vul het contactformulier in</p>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                        <p class="text-muted mb-5">Stuur ons een berichtje op [emailadres] </p>
                     </div>
                 </div>
             </div>
@@ -182,5 +190,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
     </body>
 </html>
